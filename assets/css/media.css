@@ -1,0 +1,241 @@
+@media(max-width:1180px) {
+    .container {
+        width: 1040px;
+    }
+}
+
+@media(max-width:1080px) {
+    .container {
+        width: 940px;
+    }
+
+    .iframe {
+        width: 30%;
+    }
+
+    .main-item {
+        padding: 25px 40px;
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        width: 840px;
+    }
+    .iframe {
+        height: 200px;
+    }
+    .services-item {
+        padding: 25px 30px;
+    }
+    .order-form {
+        width: 40%;
+    }
+    .footer-item {
+        width: 30%;
+    }
+}
+
+@media (max-width: 880px) {
+    .container {
+        width: 740px;
+    }
+    .contact {
+        display: none;
+    }
+    .iframe {
+        height: 180px;
+    }
+    .services-item {
+        width: 28%;
+        padding: 25px 30px;
+    }
+    .text-inner {
+        width: 55%;
+    }
+}
+
+@media (max-width: 780px) {
+    .container {
+        width: 640px;
+    }
+    .content .container {
+        padding: 60px 0;
+    }
+    .content-holder {
+        width: 58%;
+    }
+    .iframe {
+        height: 150px;
+    }
+    .services .container {
+        padding: 40px 0;
+    }
+    .services-text {
+        width: 90%;
+    }
+    .order-form {
+        width: 45%;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    .container {
+        width: 540px;
+    }
+    .nav-item {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu-button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 18px;
+    }
+    .content-video {
+        display: none;
+    }
+    .content .container {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .content-holder {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .services-item {
+        width: 40%;
+    }
+    .text-inner {
+        width: 80%;
+    }
+    .to-order__text {
+        width: 90%;
+    }
+    .order-form {
+        width: 55%;
+    }
+    .footer-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container {
+        width: 440px;
+    }
+    .services-item {
+        width: 44%;
+    }
+    .description-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .grid {
+        flex-direction: column-reverse;
+    }
+    .description-item__img {
+        width: 25%;
+    }
+    .description-item__link {
+        margin-top: 25px;
+    }
+    .to-order__text {
+        width: 100%;
+    }
+    .order-form {
+        width: 65%;
+    }
+    .footer-item:first-child {
+        display: none;
+    }
+    .footer-list {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 340px;
+    }
+    .content-holder {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 26px;
+        line-height: 34 px;
+    }
+    .content .container {
+        padding-bottom: 0;
+    }
+    .services-item {
+        width: 80%;
+    }
+    .wrap-link {
+        flex-direction: column;
+    }
+    .order-link {
+        margin: 0 0 16px 0;
+    }
+    .services .container {
+        padding-bottom: 0;
+    } 
+    .order-form {
+        width: 80%;
+    }
+    .footer-item {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__nav-list {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-list {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 240px;
+    }
+    .order-form {
+        width: 100%;
+        padding: 24px 12px;
+    }
+    .footer-list {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-item {
+        width: 100%;
+        margin: 12px;
+    }
+    .footer .container {
+        padding: 12px 0;
+    }
+    .services-item {
+        width: 100%;
+    }
+}
+
